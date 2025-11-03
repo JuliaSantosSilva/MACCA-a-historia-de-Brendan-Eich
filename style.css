@@ -9,8 +9,8 @@
 body{
     background-image: url('pag1.png');
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-attachment: fixed;
     display: flex;
     font-family: "Montserrat", sans-serif;
@@ -31,7 +31,7 @@ body{
     border-radius: 15px;
 }
 img{
-    width: 520px;
+   width: 520px;
     height: 250px;
     position: relative;
     z-index: 10;
@@ -57,7 +57,7 @@ h3{
     padding: 5px;
     border-radius: 5px;
     text-align: center;
-
+    margin: 0 5px;
 }
 .botao-link{
     color: white;
@@ -78,4 +78,26 @@ h3{
 .input-codigo.incorreto{
     border: 2px solid rgb(229, 0, 0) !important;
     color: rgb(229, 0, 0);
+}
+@media screen and (max-width:768px){
+    .background{
+        width:100%;
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .input-codigo{
+        width: 12vw;
+        height: 12vw;
+        margin: 0 2px;
+        font-size: 100%;
+    }
+    .botao-link{
+        padding: 10px 20px;
+    }
+    header h1, main h1, h3{
+        font-size: 20px;
+    }
 }
