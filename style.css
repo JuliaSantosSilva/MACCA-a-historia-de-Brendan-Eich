@@ -84,6 +84,7 @@ h3{
         min-height: 100vh !important;
         background-position: center center !important;
         background-size: cover !important;
+        background-attachment: scroll !important;
     }
     .background{
         width:90% !important;
