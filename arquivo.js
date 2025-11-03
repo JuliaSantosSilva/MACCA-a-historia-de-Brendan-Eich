@@ -51,7 +51,7 @@ function confirmarSenha(){
 
     const senhaEsperada = SENHA_CORRETA.join('');
     if (senhaDigitada === senhaEsperada){
-        window.location.href = "http://127.0.0.1:5500/index2.html";
+        window.location.href = 'index2.html';
     } else {
         alert('Sua senha está incorreta! Por favor, verifique os dígitos.');
     }
