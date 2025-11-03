@@ -80,24 +80,35 @@ h3{
     color: rgb(229, 0, 0);
 }
 @media screen and (max-width:768px){
+    body{
+        min-height: 100vh !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
     .background{
-        width:100%;
-        flex-direction: column;
+        width:90% !important;
+        height: auto !important;
+        position: static !important;
+        transform: none !important;
+        left: auto !important;
+        justify-content: unset !important;
+        align-items: unset !important;
+        padding: 15px !important;
     }
     img{
-        width: 100%;
-        height: auto;
+        width: 100% !important;
+        height: auto !important;
     }
     .input-codigo{
-        width: 12vw;
-        height: 12vw;
-        margin: 0 2px;
-        font-size: 100%;
+        width: 12vw !important;
+        height: 12vw !important;
+        margin: 0 2px !important;
+        font-size: 100% !important;
     }
     .botao-link{
-        padding: 10px 20px;
+        padding: 10px 20px !important;
     }
     header h1, main h1, h3{
-        font-size: 20px;
+        font-size: 20px !important;
     }
 }
