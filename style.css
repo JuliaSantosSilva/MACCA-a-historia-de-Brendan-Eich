@@ -94,6 +94,7 @@ h3{
         justify-content: unset !important;
         align-items: unset !important;
         padding: 15px !important;
+        margin: 20px auto !important;
     }
     img{
         width: 100% !important;
